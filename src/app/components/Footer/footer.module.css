@@ -1,0 +1,126 @@
+.footer {
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 30px 0;
+  width: 100%;
+  height: auto;
+  margin-top: auto;
+}
+
+.containerfooter {
+  max-width: 100%;
+  margin: auto;
+}
+
+.rowfooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_col ul {
+  list-style: none;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer_col {
+  width: 20%;
+  padding: 0 15px;
+}
+
+.footer_col h4 {
+  font-size: 17px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-family: "Bangers", cursive;
+  position: relative;
+}
+
+.footer_col h4::before {
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+
+.footer-col ul Link {
+  margin-bottom: 10px;
+}
+
+.footer_col Link {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer_col Link {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+.footer_col .redes_sociales_link {
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 0 -10px -15px 0;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.footer_col .redes_sociales_link ul {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-bottom: 0.2px;
+  text-align: center;
+}
+
+.footer_col .partners_logos ul {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer_texto_copyright {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color: #999;
+  width: 100%;
+  padding: 8px 40px;
+  align-items: baseline;
+}
+
+@media (max-width: 676px) {
+  .footer_col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer_col {
+    width: 100%;
+  }
+}
